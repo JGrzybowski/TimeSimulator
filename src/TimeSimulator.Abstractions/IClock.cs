@@ -1,6 +1,6 @@
 ﻿namespace TimeSimulator.Abstractions
 {
-    public interface IControlledClock<TTime, TInterval>
+    public interface IClock<TTime>
     {
         TTime Now { get; }
     }
