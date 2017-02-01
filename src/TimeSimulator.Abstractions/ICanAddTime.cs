@@ -1,4 +1,6 @@
-﻿namespace TimeSimulator.Abstractions
+﻿using System;
+
+namespace TimeSimulator.Abstractions
 {
     public interface ICanAddTime
     {
@@ -12,5 +14,6 @@
     public interface ICanAddTime<TInterval>
     {
         void AddInterval(TInterval interval);
+        event EventHandler<TimeChangedEventArgs<TInterval>> TimeMovedForward;
     }
 }

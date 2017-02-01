@@ -67,6 +67,14 @@
       <Project>{68d019a0-7528-4e79-b0e1-9df9933c6ebe}</Project>
       <Name>TimeSimulator.Abstractions.Tests</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TimeSimulator.Abstractions\TimeSimulator.Abstractions.csproj">
+      <Project>{B1E7794C-6149-479E-86D3-FF4B57AD621B}</Project>
+      <Name>TimeSimulator.Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TimeSimulator.SystemDateTime\TimeSimulator.SystemDateTime.csproj">
+      <Project>{ecccaf53-f42d-4a7e-833b-fca6ae08c26c}</Project>
+      <Name>TimeSimulator.SystemDateTime</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
