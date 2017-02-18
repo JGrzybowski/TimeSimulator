@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>TImeSimulator.NodaTime</id>
+    <version>1.0.0</version>
+    <authors>Jan Grzybowski</authors>
+    <owners>Jan Grzybowski</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description></description>
+    <releaseNotes></releaseNotes>
+    <tags>Time Simulation TimeControl NodaTime</tags>
+    <dependencies>
+      <dependency id="NodaTime" version="2.0.0-beta20170123" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\netstandard1.1\*.dll" target="lib\netstandard1.1" />
+    <file src="bin\$configuration$\netstandard1.1\*.pdb" target="lib\netstandard1.1" />
+    <file src="**\*.cs" target="src" />
+    <file src="*.cs" target="src" />
+  </files>
+</package>
