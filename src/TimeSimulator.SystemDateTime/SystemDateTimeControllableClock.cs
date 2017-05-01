@@ -1,5 +1,5 @@
 ﻿using System;
-using TimeSimulator.Abstractions;
+using TimeSimulator.Abstractions.Clock;
 
 namespace TimeSimulator.SystemDateTime
 {

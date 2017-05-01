@@ -1,5 +1,6 @@
 ﻿using Shouldly;
 using System;
+using TimeSimulator.Abstractions.Clock;
 using Xunit;
 
 namespace TimeSimulator.Abstractions.Tests

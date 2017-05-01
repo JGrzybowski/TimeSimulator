@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TimeSimulator.Abstractions
+namespace TimeSimulator.Abstractions.Clock
 {
     public class TimeChangedEventArgs<TInterval> : EventArgs
     {

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <package>
   <metadata>
-    <id>TImeSimulator.SystemDateTime</id>
+    <id>TimeSimulator.SystemDateTime</id>
     <version>1.0.0</version>
     <authors>Jan Grzybowski</authors>
     <owners>Jan Grzybowski</owners>

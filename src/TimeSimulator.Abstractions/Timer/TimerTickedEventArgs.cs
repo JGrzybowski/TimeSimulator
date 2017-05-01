@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace TimeSimulator.Abstractions
+namespace TimeSimulator.Abstractions.Timer
 {
     public class TimerTickedEventArgs : EventArgs
     {
