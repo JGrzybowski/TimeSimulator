@@ -10,7 +10,7 @@
     <releaseNotes></releaseNotes>
     <tags>Time Simulation TimeControl NodaTime</tags>
     <dependencies>
-      <dependency id="NodaTime" version="2.0.0-beta20170123" />
+      <dependency id="NodaTime" version="2.0.0" />
     </dependencies>
   </metadata>
   <files>
